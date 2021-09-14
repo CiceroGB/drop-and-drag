@@ -3,28 +3,29 @@ html {
 }
 
 body {
-    background-color: #130f0d;
+    background-color: #F0F0F7;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .boards {
     display: flex;
-
-    margin-top: 32px;
+    justify-content: center;
+    margin-top: 32px;       
 }
 
 .board {
-    background: #141316;
+    background: #fff;
     border: 1px solid #FD951F11;
     border-radius: 4px;
-
     margin: 0 16px;
 }
 
 .board h3 {
     padding: 16px;
     margin: 0;
-    color: #FD951Fcc;
+    color: #33adff;
 }
 
 .dropzone {
@@ -36,7 +37,7 @@ body {
 .card {
     background-color: #1A1A1C;
     padding: 16px;
-    box-shadow: 0 2px 2px -1px #FD951Fcc;
+    box-shadow: 0 2px 2px -1px #1A1A1C;
     width: 250px;
     margin: 25px 0;
     border-radius: 4px;
